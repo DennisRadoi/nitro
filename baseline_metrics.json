@@ -1,0 +1,87 @@
+{
+  "validation_size": 656,
+  "validation_evasion_accuracy": 0.48323170731707316,
+  "validation_evasion_macro_f1": 0.19109920573775116,
+  "validation_clarity_accuracy": 0.5655487804878049,
+  "validation_clarity_macro_f1": 0.4363794807382417,
+  "evasion_classification_report": {
+    "Claims ignorance": {
+      "precision": 0.25,
+      "recall": 0.08333333333333333,
+      "f1-score": 0.125,
+      "support": 12.0
+    },
+    "Clarification": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 7.0
+    },
+    "Declining to answer": {
+      "precision": 0.24242424242424243,
+      "recall": 0.26666666666666666,
+      "f1-score": 0.25396825396825395,
+      "support": 30.0
+    },
+    "Deflection": {
+      "precision": 0.09523809523809523,
+      "recall": 0.05555555555555555,
+      "f1-score": 0.07017543859649122,
+      "support": 36.0
+    },
+    "Dodging": {
+      "precision": 0.2916666666666667,
+      "recall": 0.24561403508771928,
+      "f1-score": 0.26666666666666666,
+      "support": 57.0
+    },
+    "Explicit": {
+      "precision": 0.6323185011709602,
+      "recall": 0.75,
+      "f1-score": 0.6861499364675985,
+      "support": 360.0
+    },
+    "General": {
+      "precision": 0.20253164556962025,
+      "recall": 0.18181818181818182,
+      "f1-score": 0.19161676646706588,
+      "support": 88.0
+    },
+    "Implicit": {
+      "precision": 0.15,
+      "recall": 0.10909090909090909,
+      "f1-score": 0.12631578947368421,
+      "support": 55.0
+    },
+    "Partial/half-answer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 11.0
+    },
+    "accuracy": 0.48323170731707316,
+    "macro avg": {
+      "precision": 0.20713101678550944,
+      "recall": 0.1880087423947073,
+      "f1-score": 0.19109920573775116,
+      "support": 656.0
+    },
+    "weighted avg": {
+      "precision": 0.4329782681905045,
+      "recall": 0.48323170731707316,
+      "f1-score": 0.4537636957423951,
+      "support": 656.0
+    }
+  },
+  "train_label_counts": {
+    "Explicit": 1801,
+    "General": 438,
+    "Dodging": 286,
+    "Implicit": 276,
+    "Deflection": 179,
+    "Declining to answer": 148,
+    "Claims ignorance": 58,
+    "Partial/half-answer": 56,
+    "Clarification": 36
+  }
+}
